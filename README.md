@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Yuki Music School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="吉田侑生の公式ページ。ギター講師・演奏活動・SNSリンク・お問い合わせ情報などを掲載。">
+    <meta name="keywords" content="吉田侑生, ギター, ギタリスト, 音楽, 新宿, レッスン, サポート演奏">
+    <style>
+      body {
+        background-color: #2c2c2c;
+        color: #f0f0f0;
+        font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+        padding: 30px;
+        line-height: 1.6;
+      }
+
+      nav.navbar {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+      }
+
+      nav.navbar a {
+        color: #f0f0f0;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+      }
+
+      nav.navbar a:hover {
+        background-color: #444;
+      }
+
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 1.5s ease-out forwards;
+      }
+
+      .profile-card {
+        background-color: #3a3a3a;
+        border-radius: 12px;
+        padding: 20px;
+        max-width: 500px;
+        margin: 0 auto 40px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        animation: fadeInUp 2s ease-out;
+      }
+
+      .profile-card h2 {
+        font-size: 28px;
+        margin-bottom: 16px;
+        color: #f0f0f0;
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #f0f0f0;
+        margin-bottom: 16px;
+        transition: transform 0.3s ease;
+      }
+
+      .profile-image:hover {
+        transform: scale(1.05);
+      }
+
+      .profile-card p {
+        font-size: 16px;
+        color: #ccc;
+        margin: 0;
+      }
+
+      .social-link {
+        display: inline-block;
+        text-decoration: none;
+        color: #f0f0f0;
+        font-size: 16px;
+        margin: 16px 0;
+        padding: 6px 12px;
+        border-radius: 8px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        box-shadow: 0 0 0 transparent;
+      }
+
+      .social-link:hover {
+        transform: translateY(-4px);
+        background-color: #444;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        vertical-align: middle;
+        transition: transform 0.3s ease;
+      }
+
+      .icon:hover {
+        transform: scale(1.2);
+      }
+
+      #sns, #contact {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      @media screen and (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+
+        .profile-card {
+          max-width: 100%;
+          padding: 16px;
+        }
+
+        .profile-card h2 {
+          font-size: 22px;
+        }
+
+        .profile-card p {
+          font-size: 14px;
+        }
+
+        .profile-image {
+          width: 120px;
+          height: 120px;
+        }
+
+        .social-link {
+          font-size: 14px;
+        }
+
+        .icon {
+          width: 20px;
+          height: 20px;
+        }
+
+        nav.navbar {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="#profile">自己紹介</a>
+      <a href="#sns">SNSリンク</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+
+    <div id="profile" class="profile-card">
+      <h2>吉田侑生 Yuki Yoshida</h2>
+      <img src="yuki_face.jpeg" alt="侑生の写真" class="profile-image">
+      <p>
+        ギタリスト 🎸<br>
+       新宿でギター講師もしています。<br>
+        サポート演奏・レッスン・コラボなど、お気軽にご相談ください！<br>
+        音楽で自分らしさを表現中💻🎶
+      </p>
+    </div>
+
+    <div id="sns">
+      <h2 class="fade-in" style="animation-delay: 0.2s;">SNSリンク</h2>
+      <a href="https://www.youtube.com/@yuuki914" class="social-link fade-in" style="animation-delay: 0.4s;" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="icon">
+        YouTubeを見る
+      </a><br>
+
+      <a href="https://www.instagram.com/yukiki168" class="social-link fade-in" style="animation-delay: 0.6s;" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="icon">
+        Instagramを見る
+      </a><br>
+
+      <a href="https://twitter.com/yukiki168" class="social-link fade-in" style="animation-delay: 0.8s;" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="X" class="icon">
+        X（旧Twitter）を見る
+      </a>
+    </div>
+
+    <div id="contact">
+      <h2 class="fade-in" style="animation-delay: 1s;">お問い合わせ</h2>
+      <a href="mailto:x.yuki168.guitar@gmail.com" class="social-link fade-in" style="animation-delay: 1.2s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="メール" class="icon">
+        メールを送る
+      </a>
+    </div>
+  </body>
+</html>​‌
